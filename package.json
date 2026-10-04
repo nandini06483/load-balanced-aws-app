@@ -1,0 +1,12 @@
+{
+  "name": "load-balanced-aws-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application deployed on multiple EC2 instances behind an AWS Load Balancer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
